@@ -52,7 +52,7 @@ router.put('/:id', async (req, res) => {
       where: { id: req.params.id }
     });
 
-    (!updCategoryData) ? res.status(404).json({ message: 'No category found with that id.' }) :
+    (!updCategoryData) ? res.status(404).json({ message: 'No categories found with that id.' }) :
       res.status(200).json(updCategoryData);
   } catch (err) {
     res.status(500).json(err);
@@ -66,7 +66,7 @@ router.delete('/:id', async (req, res) => {
       where: { id: req.params.id }
     });
 
-    (!rmCategoryData) ? res.status(404).json({ message: 'No category found with that id.' }) :
+    (!rmCategoryData) ? res.status(404).json({ message: 'No categories found with that id.' }) :
       res.status(200).json(rmCategoryData);
   } catch (err) {
     res.status(500).json(err);
