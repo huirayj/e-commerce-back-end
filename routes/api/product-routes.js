@@ -45,7 +45,9 @@ router.get('/:id', async (req, res) => {
       ]
     });
 
-    res.status(200).json(productData);
+    (!productData) ?
+      res.status(404).json({ message: 'No product found with that id.' }) :
+      res.status(200).json(productData);
   } catch (err) {
     res.status(500).json(err);
   }
@@ -132,12 +134,9 @@ router.delete('/:id', async (req, res) => {
       where: { id: req.params.id }
     });
 
-    if (productData) {
-      res.status(404).json({ message: 'No product found with that id.' });
-      return;
-    }
-
-    res.status(200).json(productData);
+    (!productData) ?
+      res.status(404).json({ message: 'No product found with that id.' }) :
+      res.status(200).json(productData);
   } catch (err) {
     res.status().json(err);
   }
