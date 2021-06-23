@@ -19,10 +19,10 @@ For this exercise, the user uses a Object-Relational-Mapping tool, specifically 
 
 ## Installation
 1. ```npm i```
-2. Setup ```schema.sql``` via a VSCode extension or [MySql Workbench](https://www.mysql.com/products/workbench/).
+2. Setup ```schema.sql``` via a [VSCode extension](https://marketplace.visualstudio.com/items?=itemName=formulahendry.vscode-mysql) or [MySql Workbench](https://www.mysql.com/products/workbench/).
 
 ## Usage
-- ```npm run seed``` to seed the database.
+- ```npm run seed``` to seed the database.s
 - ```npm run start``` to start the server.
 
 ## Resources
