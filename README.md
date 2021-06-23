@@ -3,6 +3,13 @@
 ## Overview
 For this exercise, the user uses a Object-Relational-Mapping tool, specifically Sequelize, to manage a database of consumer products from a created server. As well as creating new data, it must be able to extract, update, and delete. 
 
+##### Table of Contents  
+[Pseudocode](#pseudocode)  
+[Installation](#installation) 
+[Usage](#usage) 
+[Links](#links)
+[Demos](#demos)
+
 ## Pseudocode
 1. Setup models to establish relationships between data.
 2. Setup server and server routes.
@@ -30,7 +37,7 @@ For this exercise, the user uses a Object-Relational-Mapping tool, specifically 
 - [Repository](https://github.com/huirayj/e-commerce-back-end)
 - [Folder of Higher Quality Demos](https://drive.google.com/drive/folders/1bv6FHdamzLrXrn4Cc9reYGANCow8hd38?usp=sharing)
 
-## Demo
+## Demos
 ### Categories
 ![ecommerce-backend-categories-demo](./demos/ecommerce-backend-categories-demo.gif)
 ### Products
