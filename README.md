@@ -1,7 +1,7 @@
 # E-Commerce Back-end Management
 
 ## Overview
-For this exercise, the user uses a Object-Relational-Mapping tool, specifically Sequelize, to manage a database of consumer products from a created server. As well as creating new data, it must be able to extract, update, and delete. 
+For this exercise, the user uses a Object-Relational-Mapping framework, specifically Sequelize, to manage a database of consumer products from a created server. As well as creating new data, it must be able to extract, update, and delete. 
 
 ## Table of Contents  
 1. [Pseudocode](#pseudocode)  
