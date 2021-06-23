@@ -3,12 +3,12 @@
 ## Overview
 For this exercise, the user uses a Object-Relational-Mapping tool, specifically Sequelize, to manage a database of consumer products from a created server. As well as creating new data, it must be able to extract, update, and delete. 
 
-##### Table of Contents  
-- [Pseudocode](#pseudocode)  
-- [Installation](#installation) 
-- [Usage](#usage) 
-- [Links](#links)
-- [Demos](#demos)
+## Table of Contents  
+1. [Pseudocode](#pseudocode)  
+2. [Installation](#installation) 
+3. [Usage](#usage) 
+4. [Links](#links)
+5. [Demos](#demos)
 
 ## Pseudocode
 1. Setup models to establish relationships between data.
