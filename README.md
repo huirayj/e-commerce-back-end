@@ -25,7 +25,7 @@ For this exercise, the user uses a Object-Relational-Mapping framework, specific
     DB_USER=root
     DB_PW=
 
-1. Setup ```schema.sql``` via a [VSCode extension](https://marketplace.visualstudio.com/items?=itemName=formulahendry.vscode-mysql) or [MySql Workbench](https://www.mysql.com/products/workbench/).
+3. Setup ```schema.sql``` via a [VSCode extension](https://marketplace.visualstudio.com/items?=itemName=formulahendry.vscode-mysql) or [MySql Workbench](https://www.mysql.com/products/workbench/).
 
 ## Usage
 - ```npm run seed``` to seed the database.s
